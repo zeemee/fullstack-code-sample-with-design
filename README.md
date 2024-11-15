@@ -28,7 +28,7 @@ The search endpoint should be defined as follows:
 
 `GET /api/search?index=<number>&limit=<number>&query=<string>`
 
-Paramaters:
+Parameters:
 
 **index**: A numerical index that represents the offset to start returning results from. Default 0.
 
