@@ -20,7 +20,7 @@ The React app should match as closely as possible the design found in this [Figm
 * We ask that you use SQLite as your database to keep things simple
 * We recommend using [Create React App](https://create-react-app.dev/) to build the frontend portion, but you can use whatever React tool you'd prefer
 * There should be reasonable test coverage on both the frontend and backend
-* You must use the data/assets provided in the Resources section.
+* You must use the data/assets provided in the Resources section
 
 ### Specifications
 
@@ -34,7 +34,7 @@ Paramaters:
 
 **limit**: A numerical limit on results to return. Default 10.
 
-**query**: A string to query for results. This should search the **name** of a cocktail recipe inclusively, as in, 'rita' should find 'Margarita'. An empty query string should result in an empty results array.
+**query**: A string to query for results. This should search the **name** of a cocktail recipe inclusively, as in, 'rita' should find 'Margarita'. An empty query string should return an array of unfiltered results.
 
 The result format should look like this:
 
